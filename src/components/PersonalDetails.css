@@ -1,0 +1,32 @@
+.personal-details-container {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center align items horizontally */
+    margin-top: 50px; /* Space from top of the page */
+}
+
+.form-grid {
+    display: flex;
+    flex-direction: column; /* Stack form groups vertically */
+    gap: 20px; /* Space between form groups */
+    width: 100%; /* Full width for responsiveness */
+    max-width: 400px; /* Max width for larger screens */
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column; /* Stack label and input vertically */
+}
+
+.form-control {
+    width: 100%; /* Make input take full width of its parent */
+    max-width: 300px; /* Limit the width to a maximum value */
+    margin-bottom: 10px; /* Space below the input field */
+}
+
+.btn {
+    margin-top: 20px; /* Space above the button */
+    padding: 10px 20px; /* Adjust padding for a better fit */
+    width: auto; /* Allow the button to size according to content */
+    max-width: 100px; /* Limit the maximum width of the button */
+}

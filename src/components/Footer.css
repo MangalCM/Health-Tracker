@@ -1,0 +1,15 @@
+.footer {
+    background-color: #f8f9fa; /* Light background color */
+    padding: 10px 0; /* Adjusted padding for better appearance */
+    text-align: center; /* Center the text */
+    position: relative; /* Change to relative or static */
+    margin-top: 20px; /* Add margin at the top to separate from content */
+    border-top: 1px solid #dee2e6; /* Optional border at the top */
+    clear: both; /* Clear floats if any */
+}
+
+.footer-content {
+    margin: 0; /* Remove any margin */
+    font-size: 14px; /* Reduce the font size slightly if needed */
+    line-height: 1.2; /* Adjust line height to make it more compact */
+}

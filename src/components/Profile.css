@@ -1,0 +1,77 @@
+.profile {
+    position: relative;
+  }
+  
+  .profile-btn {
+    background-color: #007bff; /* Bootstrap Primary Color */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .side-panel {
+    position: fixed; /* Fixed position to take full height */
+    top: 80px; /* Start below the navbar */
+    right: 0;
+    width: 250px; /* Fixed width */
+    height: calc(100vh - 80px); /* Full height minus navbar height */
+    background-color: #f8f9fa; /* Light background */
+    border-left: 1px solid #dee2e6; /* Left border */
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+    transform: translateX(100%); /* Initially off-screen */
+    transition: transform 0.3s ease;
+    z-index: 1000; /* Ensure it appears above other content */
+    padding: 20px; /* Added padding for better spacing */
+  }
+  
+  .side-panel.visible {
+    transform: translateX(0); /* Slide in when visible */
+  }
+  
+  .close-btn {
+    background-color: #dc3545; /* Bootstrap Danger Color */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  .side-panel ul {
+    list-style-type: none;
+    padding: 10px;
+  }
+  
+  .side-panel li {
+    margin: 10px 0;
+  }
+  
+  .side-panel li a {
+    text-decoration: none;
+    padding: 10px; /* Added padding for better clickability */
+    border-radius: 5px; /* Rounded corners for links */
+    display: block; /* Makes the entire area clickable */
+  }
+  
+  .side-panel li a.my-info {
+    background-color: #28a745; /* Green for My Info */
+    color: white; /* White text */
+  }
+  
+  .side-panel li a.settings {
+    background-color: #ffc107; /* Yellow for Settings */
+    color: black; /* Black text */
+  }
+  
+  .side-panel li a.my-info:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  
+  .side-panel li a.settings:hover {
+    background-color: #e0a800; /* Darker yellow on hover */
+  }
+  
